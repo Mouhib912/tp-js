@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <title>Mini Word</title>
+  </head>
+  <body>
+    <div style="text-align: center">
+      <label>
+        <input type="text" class="text form-control" />
+      </label>
+    </div>
+    <br /><br />
+    <div class="container">
+      <div class="row">
+        <input
+          type="color"
+          class="form-control form-control-color col"
+          id="exampleColorInput"
+          value="#563d7c"
+          title="Choose your color"
+        />
+        <input type="number" class="num col form-control" />
+        <select class="police col">
+          <option class="police form-control" value="Arial">Arial</option>
+          <option class="police form-control" value="Calisto MT">
+            Calisto MT
+          </option>
+          <option class="police form-control" value="Times New Roman">
+            Times New Roman
+          </option>
+        </select>
+      </div>
+      <br />
+      <div class="row">
+        Bold:<input type="checkbox" value="bold" class="bold col" />
+        italic:<input type="checkbox" value="italic" class="italic col" />
+      </div>
+    </div>
+
+    <script src="ex2.js"></script>
+  </body>
+</html>

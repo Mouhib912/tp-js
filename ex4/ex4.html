@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <title>RandomColor</title>
+    <style>
+      li {
+        font-weight: bold;
+        text-align: center;
+      }
+
+      a {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <p
+      class="form-control"
+      style="color: #3388b6; font-weight: bold; text-align: center"
+    >
+      Click to change the color randomly
+    </p>
+    <ol class="list-group">
+      <li class="list-group-item">
+        <a onclick="changeColor(this)">An item</a>
+      </li>
+      <li class="list-group-item">
+        <a onclick="changeColor(this)">A second item</a>
+      </li>
+      <li class="list-group-item">
+        <a onclick="changeColor(this)">A third item</a>
+      </li>
+      <li class="list-group-item">
+        <a onclick="changeColor(this)">A fourth item</a>
+      </li>
+      <li class="list-group-item">
+        <a onclick="changeColor(this)">And a fifth one</a>
+      </li>
+    </ol>
+
+    <script src="ex4.js"></script>
+  </body>
+</html>

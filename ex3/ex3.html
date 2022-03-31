@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/ce61b18206.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>My ToDo List</title>
+    <style>
+      .trash {
+        border: 0 solid white;
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <br />
+          Name : <input type="text" class="form-control name" /> Content:<input
+            type="text"
+            class="form-control content"
+          />
+          <br />
+          <button
+            type="submit"
+            class="btn btn-primary button"
+            onclick="submit()"
+            style="font-weight: bold"
+          >
+            Add TODO
+          </button>
+        </div>
+
+        <div class="col">
+          <div
+            class="form-control"
+            style="color: #3388b6; font-weight: bold; text-align: center"
+          >
+            <i class="fa fa-solid fa-list-check"></i> My ToDo List
+          </div>
+          <ul class="list-group list-group-flush ul fa-ul"></ul>
+        </div>
+      </div>
+
+      <script src="ex3.js"></script>
+    </div>
+  </body>
+</html>
